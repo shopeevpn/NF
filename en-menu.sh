@@ -251,7 +251,7 @@ bbrInstall() {
 	red "=============================================================="
 	read -p "please choose：" BBR
 	case "$BBR" in
-		1 ) wget --no-check-certificate -N "https://raw.githubusercontent.com/ylx2016/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh;;
+		1 ) wget --no-check-certificate -N "https://raw.githubusercontent.com/shopeevpn/NF/main/en-tcp.sh" && chmod +x en-tcp.sh && ./en-tcp.sh;;
 		2 ) menu$PLAN;;
 		* ) red "Please enter the correct number [1-2]"; sleep 1; bbrInstall;;
 		esac
