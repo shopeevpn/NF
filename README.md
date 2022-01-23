@@ -13,3 +13,4 @@ The script comes from the internet
 ```
 wget -N https://raw.githubusercontent.com/shopeevpn/NF/main/en-menu.sh && bash en-menu.sh
 ```
+.
